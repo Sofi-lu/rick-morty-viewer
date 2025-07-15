@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  background: #20232a;
+  color: #61dafb;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  margin: 0.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.like {
+  background: #4caf50;
+  color: #fff;
+}
+
+.dislike {
+  background: #f44336;
+  color: #fff;
+}
+
+.score {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
