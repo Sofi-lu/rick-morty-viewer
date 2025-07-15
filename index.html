@@ -5,8 +5,26 @@
   <title>Rick and Morty Viewer</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<link rel="icon" href="assets/rick-and-morty-logo.png" type="image/png">
+
 <body>
   <h1>Rick and Morty Characters</h1>
+    <div class="filters">
+    <input type="text" id="searchInput" placeholder="Buscar por nombre...">
+    <select id="statusFilter">
+        <option value="">Todos los estados</option>
+        <option value="Alive">Alive</option>
+        <option value="Dead">Dead</option>
+        <option value="unknown">Unknown</option>
+    </select>
+    <select id="speciesFilter">
+        <option value="">Todas las especies</option>
+        <option value="Human">Human</option>
+        <option value="Alien">Alien</option>
+        <option value="Robot">Robot</option>
+        <option value="unknown">Unknown</option>
+    </select>
+    </div>
   <div id="gallery" class="grid"></div>
   <script src="app.js"></script>
 </body>
