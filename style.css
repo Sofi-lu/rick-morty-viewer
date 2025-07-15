@@ -1,16 +1,19 @@
 body {
   font-family: Arial, sans-serif;
-  background: #043C6E;
+  background: #043C6E; 
   text-align: center;
   margin: 0;
 }
 
 h1 {
-  background: #20232a;
-  color: #61dafb;
+  background: #20232a; 
+  color: #61dafb;      
   padding: 2rem;
   font-size: 2.5rem;
+  margin: 0;           
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
+
 
 .grid {
   display: grid;
@@ -161,6 +164,26 @@ h1 {
     align-items: center;
   }
 }
+
+.filters input,
+
+.filters select {
+  padding: 0.5rem;
+  border-radius: 12px;
+  border: none;
+  background-color: #20232a; 
+  color: white;
+}
+
+.filters input::placeholder {
+  color: #ccc; 
+}
+
+.filters select option {
+  color: black; 
+  background-color: #20232a;
+}
+
 
 
 
